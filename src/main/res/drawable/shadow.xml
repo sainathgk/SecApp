@@ -1,0 +1,24 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:colorControlHighlight" >
+
+    <item>
+        <shape android:shape="rectangle" >
+            <solid android:color="@android:color/darker_gray" />
+
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+    <item
+        android:bottom="1dp"
+        android:left="1dp"
+        android:right="1dp"
+        android:top="1dp">
+        <shape android:shape="rectangle" >
+            <solid android:color="#fafafa" />
+            <!-- @android:color/white -->
+
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+
+</ripple>

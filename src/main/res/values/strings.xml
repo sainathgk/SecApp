@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Rental</string>
+    <string name="app_id">355198514515820</string>
+    <string name="title_activity_rental_maps">Map</string>
+    <string name="title_activity_rental_main">RentalMainActivity</string>
+    <string name="title_activity_rental_login">Rental Login</string>
+    <string name="title_activity_post">Post a Rental Ad</string>
+
+    <string name="title_section1">Login</string>
+    <string name="title_section2">All Categories</string>
+    <string name="title_section3">Cameras</string>
+    <string name="title_section4">Cars</string>
+    <string name="title_section5">Bikes</string>
+    <string name="title_section6">Others</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Sign Out</string>
+
+    <string-array name="spin_category">
+        <item>Cars</item>
+        <item>Homes</item>
+        <item>Books</item>
+        <item>DVDs</item>
+        <item>Bikes</item>
+        <item>Cameras</item>
+        <item>Mobiles</item>
+        <item>Tablets</item>
+        <item>TVs</item>
+        <item>Printers</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="category_title">Select Category</string>
+    <string-array name="post_category">
+        <item>Cars</item>
+        <item>Homes</item>
+        <item>Books</item>
+        <item>DVDs</item>
+        <item>Bikes</item>
+        <item>Cameras</item>
+        <item>Mobiles</item>
+        <item>Tablets</item>
+        <item>TVs</item>
+        <item>Printers</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="category_example">
+        <item>Ford</item>
+        <item>Homes</item>
+        <item>Books</item>
+        <item>DVDs</item>
+        <item>Suzuki</item>
+        <item>Canon</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Sony</item>
+        <item>HP</item>
+        <item>Honda</item>
+    </string-array>
+
+    <string-array name="select_miles">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="per_text">per</string>
+    <string name="duration_title">Select Duration</string>
+    <string-array name="post_duration">
+        <item>Hour</item>
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
+    <string name="title_activity_detail_view">DetailViewActivity</string>
+
+    <string name="price_detail_view">Price : %1$d per %2$s</string>
+
+    <string name="no_geocoder_available">No geocoder available</string>
+
+    <string name="fetch_address">Fetch address</string>
+
+    <string name="address_found">Address found</string>
+
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+
+    <string name="search">Search</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

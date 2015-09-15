@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".PostMainActivity">
+
+    <ScrollView android:id="@+id/post_form" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout android:id="@+id/post_detail_form" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSelectPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Select Photo" />
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_local_see_black_36dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"
+            android:background="@android:drawable/gallery_thumb" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:hint="Title"
+        android:layout_gravity="center_horizontal"
+        android:singleLine="true"
+        android:inputType="textCapWords" />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/category"
+        android:hint="Category"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:entries="@array/post_category"
+        android:prompt="@string/category_title"
+        android:spinnerMode="dialog"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/desc"
+        android:hint="Description"
+        android:maxLines="3"
+        android:inputType="textCapSentences" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="$"
+                android:textSize="22dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/price"
+                android:layout_weight="2"
+                android:hint="Price"
+                android:singleLine="true"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/per_text"
+                android:textSize="18dp"/>
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/duration_select"
+                android:layout_gravity="center_vertical"
+                android:singleLine="true"
+                android:entries="@array/post_duration"
+                android:prompt="@string/duration_title"
+                android:spinnerMode="dialog"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                 />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/location"
+                    android:hint="Location"
+                    android:layout_weight="3.7"
+                    android:singleLine="true" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:background="@android:color/transparent"
+                    android:layout_gravity="center_vertical"
+                    android:onClick="onClick"
+                    android:src="@drawable/ic_place_black_24dp"/>
+            </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:hint="Name"
+        android:visibility="gone" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/email"
+        android:hint="Email Address"
+        android:visibility="gone" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/phone"
+        android:hint="Phone Number"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/done"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_done_black_36dp"
+        android:elevation="15dp"
+        android:background="@drawable/circular_shape"
+        android:layout_marginTop="10dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+<!-- From: file:/C:/Nidhish/Working_Proj/RentApp/RentalApp/app/src/main/res/layout/activity_main.xml -->
